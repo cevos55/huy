@@ -95,7 +95,81 @@
                 </div>
             </div>
 	</div>
+        <style>
+            .slideshow {
+              position: relative;
+              width: 100%;
+              height: 700px;
+              overflow: hidden;
+            }
+            
+            
+            
+            .slide {
+              position: absolute;
+              
+              width: 100%;
+              height: 100%;
+              opacity: 0;
+              transition: opacity 1s ease-in-out;
+            }
+            
+            .slide.active {
+              opacity: 1;
+            }
+            
+            
+            .slogan {
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              color: white;
+              font-size: 24px;
+              font-weight: bold;
+              text-align: center;
+                
+              text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+              
+              
+            }
+            #g{font-size: 3rem;text-align: justify;color: floralwhite;}
+          </style>
         
+          <div class="slideshow" >
+            <div class="slide active">
+              <img class=" img-fluid animated zoomIn" data-wow-delay="0.5s" src="css1/c.jpg"  src alt="Image 1" />
+              
+              <div class="slogan img-fluid animated zoomIn" data-wow-delay="0.5s" ><h2 id="g">Des diagnostics médicaux précis et rapides grâce à l'IA - Un nouvel élan pour la médecine</h2></div>
+            </div>
+            
+            <div class="slide">
+             
+              <img  src="css1/c2.jpg"  alt="Image 2" /> 
+              <div class="slogan " data-wow-delay="0.5s"><h2 id="g">Simplifiez vos opérations grâce à nos solutions informatiques intuitives</h2></div>
+            </div>
+            
+            <div class="slide">
+             
+              <img src="css1/c4.jpg" alt="Image 3"  /> 
+              <div class="slogan" ><h2 id="g">	Bienvenue dans un monde où la technologie et les soins de santé se rencontrent</h2></div>
+            </div>
+          </div>
+        
+          <script>
+            var slides = document.querySelectorAll('.slideshow .slide');
+            var index = 0;
+        
+            function changeSlide() {
+              slides[index].classList.remove('active');
+        
+              index = (index + 1) % slides.length;
+        
+              slides[index].classList.add('active');
+            }
+        
+            setInterval(changeSlide, 4500);
+          </script>
 
           
 
