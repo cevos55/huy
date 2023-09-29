@@ -236,6 +236,9 @@ h6,
     background-repeat: no-repeat;
 }
 
+.py-01{ 
+    height:unset;}
+
 
 
 @media (max-width: 991.98px) {
