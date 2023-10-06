@@ -221,12 +221,12 @@ h6,
 
 /*** Hero Header ***/
 .ols{  height: unset;
-height: 45em;}
+height: 60em;}
 
 .hero-header {
     margin-bottom: 6rem;
     padding: 18rem 0;
-    height: 10em;
+    height: 15em;
     background:
         url(../img/blob-top-left.png),
         url(../img/blob-top-right.png),
