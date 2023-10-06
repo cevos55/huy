@@ -222,6 +222,7 @@ h6,
 /*** Hero Header ***/
 .ols{  
 height: 60em;}
+py-01{height: unset;}
 
 .hero-header {
     margin-bottom: 6rem;
