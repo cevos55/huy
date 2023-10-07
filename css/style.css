@@ -471,7 +471,7 @@ h6,
     height: 100%;
     top: 0;
     left: 0;
-    background: rgba(135, 206, 250, 0.253);
+    background: rgba(124, 201, 248, 0.555);
     transition: .5s;
     opacity: 0;
 }
@@ -537,7 +537,7 @@ h6,
 
 /*** Team ***/
 .team-item .btn {
-    color: lightskyblue;
+    color: rgb(144, 210, 252);
     background: #FFFFFF;
 }
 
