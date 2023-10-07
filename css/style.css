@@ -471,7 +471,7 @@ h6,
     height: 100%;
     top: 0;
     left: 0;
-    background: lightskyblue;
+    background: rgba(135, 206, 250, 0.253)6, 250, 0.212);
     transition: .5s;
     opacity: 0;
 }
