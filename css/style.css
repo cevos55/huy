@@ -423,7 +423,8 @@ h6,
 
 .service-item a.btn:hover {
     color: var(--dark);
-    background: var(--dark);
+    /* background: var(--dark); */
+    background: lightblue;
 }
 
 .service-item:hover a.btn {
