@@ -221,12 +221,13 @@ h6,
 
 /*** Hero Header ***/
 
-.py-01{height: unset;}
+.py-01{ 
+    height:unset;}
 
 .hero-header {
     margin-bottom: 6rem;
     padding: 18rem 0;
-    height: 15em;
+    height: 250px;
     background:
         url(../img/blob-top-left.png),
         url(../img/blob-top-right.png),
