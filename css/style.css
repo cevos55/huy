@@ -377,7 +377,7 @@ h6,
 .service-item:hover {
     margin-top: -15px;
     padding-bottom: 60px;
-    background: var(--dark);
+    background: lightskyblue;
 }
 
 .service-item .service-icon {
@@ -394,7 +394,7 @@ h6,
 }
 
 .service-item:hover .service-icon {
-    color: var(--dark);
+    color: blue;
     background: url(../img/blob-secondary.png) center center no-repeat;
     background-size: contain;
 }
@@ -471,7 +471,7 @@ h6,
     height: 100%;
     top: 0;
     left: 0;
-    background: rgba(204, 34, 43, 0.9);
+    background: lightskyblue;
     transition: .5s;
     opacity: 0;
 }
@@ -601,7 +601,7 @@ h6,
 .footer .btn.btn-link:hover {
     letter-spacing: 1px;
     box-shadow: none;
-    color: var(--secondary);
+    color: blue;
 }
 
 .footer .copyright {
@@ -632,7 +632,7 @@ h6,
 
 .footer .copyright a:hover,
 .footer .footer-menu a:hover {
-    color: var(--secondary);
+    color: blue;
 }
 
 /* style button 
