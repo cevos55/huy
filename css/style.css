@@ -537,13 +537,13 @@ h6,
 
 /*** Team ***/
 .team-item .btn {
-    color: var(--primary);
+    color: lightskyblue;
     background: #FFFFFF;
 }
 
 .team-item .btn:hover {
     color: #FFFFFF;
-    background: var(--primary);
+    background: blue;
 }
 
 
