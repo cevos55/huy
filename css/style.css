@@ -221,7 +221,7 @@ h6,
 
 /*** Hero Header ***/
 
-py-01{height: unset;}
+.py-01{height: unset;}
 
 .hero-header {
     margin-bottom: 6rem;
